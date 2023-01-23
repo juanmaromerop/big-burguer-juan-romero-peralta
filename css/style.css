@@ -32,33 +32,39 @@ body {
 
 /* HEADER */
 
-.navbar{
+.navbar {
     background-color: var(--crema);
 }
-a.nav-link{
+
+a.nav-link {
     padding: 1rem;
     text-decoration: none;
     font-family: 'Ultra', serif;
     font-size: 1.6rem;
     color: #4e2313;
     transition: all linear .3s;
-    
+
 }
-.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
     color: var(--naranja);
 }
-a.nav-link:hover{
+
+a.nav-link:hover {
     color: var(--naranja);
     transform: scale(1.1);
 }
-.logo{
-    width: 5rem;
+
+.logo {
+    width: 5.5rem;
+    border-radius: 50%;
 }
 
 /* TITULO  */
 
 .titulo {
-    margin: 6rem 0 0 2rem; 
+    margin: 6rem 0 0 2rem;
     font-size: 4rem;
     font-family: var(--titulo);
     color: var(--naranja);
@@ -427,11 +433,13 @@ a.nav-link:hover{
     border-radius: .6rem;
     box-shadow: 7px 5px 14px -6px #4e2313;
     align-items: center;
+    width: 100%;
 
 }
 
 .nosotros__img {
     border-radius: .6rem;
+    width: 100%;
 }
 
 .nosotros__h3 {
@@ -454,13 +462,14 @@ a.nav-link:hover{
     display: none;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
+
     /* MAIN */
-    .main__section{
-        grid-template-columns: repeat(2, 1fr); 
+    .main__section {
+        grid-template-columns: repeat(2, 1fr);
     }
 
-     /* MENU PAGE */
+    /* MENU PAGE */
 
     /* MAIN */
 
@@ -470,8 +479,8 @@ a.nav-link:hover{
         grid-gap: 1rem;
         margin: 1rem;
     }
-  
-     /* CONTACTO PAGE */
+
+    /* CONTACTO PAGE */
     /* MAIN */
 
     .contacto {
@@ -482,12 +491,13 @@ a.nav-link:hover{
         gap: 2rem;
         margin-bottom: 1rem;
     }
-    
-    .contacto__input{
+
+    .contacto__input {
         text-align: center;
         width: 80%;
     }
-    .contacto__iframe{
+
+    .contacto__iframe {
         width: 80%;
     }
 
@@ -497,16 +507,16 @@ a.nav-link:hover{
 
 
     /* NOVEDADES PAGE */
-/* MAIN */
+    /* MAIN */
 
-.novedades {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
- }
+    .novedades {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
 
 
-  /* NOSOTROS PAGE */
+    /* NOSOTROS PAGE */
     /* MAIN */
 
     .nosotros__section {
@@ -563,9 +573,9 @@ a.nav-link:hover{
     /* MAIN */
 
     .menu__section {
-       display: flex;
-       flex-direction: column;
-       gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
         margin: 1rem;
     }
 
@@ -580,12 +590,13 @@ a.nav-link:hover{
         gap: 2rem;
         margin-bottom: 1rem;
     }
-    
-    .contacto__input{
+
+    .contacto__input {
         text-align: center;
         width: 80%;
     }
-    .contacto__iframe{
+
+    .contacto__iframe {
         width: 80%;
     }
 
