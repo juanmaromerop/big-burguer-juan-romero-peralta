@@ -151,7 +151,7 @@ a.nav-link:hover {
 
 .sectionubi__h3 {
     font-size: 4rem;
-    font-family: var(--titulo1);
+    font-family: var(--titulo);
     color: #4e2313;
 }
 
@@ -527,7 +527,11 @@ a.nav-link:hover {
 
 @media screen and (max-width: 578px) {
 
+    .container-fluid{
+        width: 80%;
+    }
     /* MAIN */
+
 
     .main__section {
         display: flex;
@@ -559,6 +563,7 @@ a.nav-link:hover {
 
     .section {
         flex-direction: column;
+        width: 100%;
     }
 
     /* FOOTER */
@@ -566,6 +571,7 @@ a.nav-link:hover {
     .footer {
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     /* MENU PAGE */
@@ -617,6 +623,8 @@ a.nav-link:hover {
 
     .nosotros__section {
         flex-direction: column;
+        width: 100%;
+        
     }
 
 }
